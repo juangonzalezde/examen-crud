@@ -1,0 +1,33 @@
+Asignatura    : Computación Móvil
+Unidad        : Examen
+Motivo        : Entrega examen
+Docente       : Rene Alejandro Galarce
+Sección       : eICFE1119-07
+----------------------------------------------------------------------------------
+Se utiliza como base para desarrollo material ejemplo_clase07_final.rar provisto por 
+docente y complementador por entrega número 3.
+Funcional    : Registro y login
+               Menu
+               Listar, agregar, editar, eliminar productos.
+               Listar, agregar, editar, eliminar categorías.
+               Listar, agregar, editar proveedores.
+               Eliminar ha presentado algunos problemas desconocidos.
+El desafio resulto bien complejo, sobre todo para recuperar registros producto de un null
+que se recibia en map((x).
+La causa origen era que estaba consumiendo el api rest con una cadena con nombre erroneo.
+Categorias lo estaba consumiendo como category, en consecuencia que debia consumirlo como 
+"Listado Categorias" 
+Y proveedores estaba consumiendo como proveedores y debia consumirlo como "Proveedores Listado"
+
+El otro punto interesante fue que el diseño estaba orientado a multiprovider cosa que me costo 
+bastante asimilar para integrar el menu.
+
+De la misma forma el uso de AppRoutes para saltar al menu sin tener que pasar por login en cada 
+prueba.
+
+
+Atte
+Juan Alberto González
+
+
+ 
